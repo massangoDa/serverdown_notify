@@ -1,5 +1,5 @@
 # サーバーダウン通知ソフト
-[![アイコン](tuuti.ico)]([text](https://github.com/massangoDa/serverdown_notify/server/tuuti.ico))
+[![アイコン](https://github.com/massangoDa/serverdown_notify/raw/main/server/tuuti.ico)](https://github.com/massangoDa/serverdown_notify)
 サーバーのダウン状態を通知を使ってユーザーに通知します。
 
 ## 特徴
