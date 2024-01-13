@@ -35,11 +35,11 @@
             button2 = new Button();
             checkBox1 = new CheckBox();
             label2 = new Label();
-            checkBox2 = new CheckBox();
             label3 = new Label();
             textBox2 = new TextBox();
             button3 = new Button();
             label4 = new Label();
+            button4 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -90,7 +90,7 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(96, 99);
+            checkBox1.Location = new Point(12, 99);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(72, 16);
             checkBox1.TabIndex = 5;
@@ -105,16 +105,6 @@
             label2.Size = new Size(119, 21);
             label2.TabIndex = 0;
             label2.Text = "pingの送信頻度";
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(12, 99);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(78, 16);
-            checkBox2.TabIndex = 6;
-            checkBox2.Text = "30秒に1回";
-            checkBox2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -153,16 +143,26 @@
             label4.TabIndex = 10;
             label4.Text = "ipまたはドメイン";
             // 
+            // button4
+            // 
+            button4.Location = new Point(12, 415);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 11;
+            button4.Text = "その他";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(6F, 12F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(276, 450);
+            Controls.Add(button4);
             Controls.Add(label4);
             Controls.Add(button3);
             Controls.Add(textBox2);
             Controls.Add(label3);
-            Controls.Add(checkBox2);
             Controls.Add(label2);
             Controls.Add(checkBox1);
             Controls.Add(button2);
@@ -186,10 +186,10 @@
         private Button button2;
         private CheckBox checkBox1;
         private Label label2;
-        private CheckBox checkBox2;
         private Label label3;
         private TextBox textBox2;
         private Button button3;
         private Label label4;
+        private Button button4;
     }
 }
